@@ -88,6 +88,7 @@ body{
   .tech{
     display: grid;
     justify-content: center;
+    gap: 1.5em;
     align-items: center;
     display:flex;
   }
