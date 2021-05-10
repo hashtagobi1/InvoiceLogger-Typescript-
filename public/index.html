@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeScript Tutorial</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>The Invoice + Payment Log</h1>
+
+      <!-- output list -->
+      <ul class="item-list"></ul>
+    </div>
+
+    <footer>
+      <form class="new-item-form">
+        <div class="field">
+          <label>Type:</label>
+          <select id="type">
+            <option value="invoice">Invoice</option>
+            <option value="payment">Payment</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>To / From:</label>
+          <input type="text" id="tofrom" placeholder="Who's it for? 'Mario'"/>
+        </div>
+        <div class="field">
+          <label>Details:</label>
+          <input type="text" id="details" placeholder="e.g. 'work for plumbing'"/>
+        </div>
+        <div class="field">
+          <label>Amount (£):</label>
+          <input type="number" id="amount"placeholder="£2000" />
+        </div>
+        <button>Add</button>
+      </form>
+
+    </footer>
+    <div class="instructions">
+      <h3>Instructions</h3>
+      <p>Let's become more efficient with our incoming + outgoing money 💪</p>
+      <ul>
+        <p>
+          Simply fill in the details below to create an efficient log for your
+          upcoming payments + invoices. 🚀
+        </p>
+      </ul>
+      <p>
+        Technologies used:
+        <div class="tech">
+          <img src="assets/TS.png" style="width:3em; height:3em;" alt="TS"/>
+
+          <img src="assets/CSS.png" style="width:2em; height:3em;" alt="CSS3"/>
+          <img src="assets/HTML_logo.png" style="width:2em; height:2em;" alt="HTML"/>
+          <img src="assets/JS.png" style="width:2em; height:2em;" alt="JS"/>
+        </div>
+       
+      </p>
+<a href="https://obianokwuru.com">Obi Anokwuru</a>
+    </div>
+    
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
