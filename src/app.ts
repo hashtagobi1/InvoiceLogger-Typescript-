@@ -29,8 +29,5 @@ form.addEventListener("submit", (e: Event) => {
   }
 
   list.render(doc, type.value, "end");
-  // console.log(type.value);
-  // console.log(toFrom.value);
-  // console.log(details.value);
-  // console.log(amount.valueAsNumber);
+  
 });

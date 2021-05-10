@@ -21,25 +21,3 @@ export class ListTemplate {
     }
   }
 }
-
-// Generics
-
-const addUID = <T>(obj: T) => {
-  let uid = Math.floor(Math.random() * 100);
-  return {
-    ...obj,
-    uid,
-  };
-};
-
-let docOne = addUID({
-  name: "Yh",
-  age: 40,
-});
-
-console.log(docOne);
-
-let arr = ["stuff", 25, true];
-
-let tup: [string, number, boolean] = ["stuff", 25, true];
-

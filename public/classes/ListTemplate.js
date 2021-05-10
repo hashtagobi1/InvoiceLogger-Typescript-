@@ -18,15 +18,3 @@ export class ListTemplate {
         }
     }
 }
-// Generics
-const addUID = (obj) => {
-    let uid = Math.floor(Math.random() * 100);
-    return Object.assign(Object.assign({}, obj), { uid });
-};
-let docOne = addUID({
-    name: "Yh",
-    age: 40,
-});
-console.log(docOne);
-let arr = ["stuff", 25, true];
-let tup = ["stuff", 25, true];
